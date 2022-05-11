@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React</title>
+  <script src="https://unpkg.com/input-knob"></script>
+  <style>
+    input-knob {
+      width: 150px;
+      padding: 10px;
+      border: 2px dashed green;
+      background: lightgreen;
+    }
+  
+    input-knob::part(rotator) {
+      box-sizing: border-box;
+      background: lightblue;
+      border: 2px dashed blue;
+      border-radius: 100%;
+      width: 150px;
+      height: 150px;
+    }
+  
+    .mark {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      font: bold 200% monospace;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
